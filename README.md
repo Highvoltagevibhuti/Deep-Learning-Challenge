@@ -65,4 +65,25 @@ Add or reduce the number of epochs to the training regimen.
 
 
 **Attempts to achieve accuracy:**
+
 I had initial accuracy of nural network model of about 74%. With some google i got that you could increase number of nurons to increase accuracy. changed layer1 unit from 8 10 10, layer 2 units from 5 to 8. tried changing activation method for layer3 from relu to sigmoid. still same result with slight variation.
+
+**Report on Nural network model**
+
+**Purpose of this analysis** is to create a tool that can help the nonprofit foundation Alphabet Soup to select the applicants for funding with the best chance of success in their ventures.
+
+**Data Preprocessing**
+
+**What variable(s) are the target(s) for your model?-** target value for the model is desired output. In this case it is weather the applicat will be successful in their venture 
+
+**What variable(s) are the features for your model?-** train the model with known input (Every other column from application_df dataframe than is successful)
+
+**What variable(s) should be removed from the input data because they are neither targets nor features?** NA
+
+**Compiling, Training, and Evaluating the Model**
+
+**How many neurons, layers, and activation functions did you select for your neural network model, and why?-** I varied nurons and activation function to achieve accuracy.
+
+**Were you able to achieve the target model performance? No I tried couple of things to change.** please refere attempts to achieve accuracy section from read me.
+
+**What steps did you take in your attempts to increase model performance?** Please refer attempts to achieve accuracy section from read me.
